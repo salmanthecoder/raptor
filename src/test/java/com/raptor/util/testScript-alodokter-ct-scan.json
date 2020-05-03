@@ -1,0 +1,34 @@
+[
+  {
+    "stepName": "navigate to url",
+    "action": "navigate",
+    "time": 2000,
+    "locator": "document.querySelector(\"#ing-uic-screen-state\").shadowRoot.querySelector(\"#form > form > ing-button\")",
+    "url": "'https://www.alodokter.com/'"
+  },
+  {
+    "stepName": "click Cari Dokter",
+    "action": "click",
+    "time": 2000,
+    "locator": "document.querySelector(\"#content > hero-view\").shadowRoot.querySelector(\"div > div.sub-menu > div > div > div:nth-child(2) > a\")"
+  },
+  {
+    "stepName": "click city scan",
+    "action": "click",
+    "time": 2000,
+    "locator": "document.querySelector(\"#container > div.parent > div.div2 > card-hospital-index\").shadowRoot.querySelector(\"div > div.card-hospital-index > div > card-sticky-hospital:nth-child(1)\").shadowRoot.querySelector(\"div > div > div.hospital-index-procedure > div > p:nth-child(1) > a\")"
+  },
+  {
+    "stepName": "click Doktor",
+    "action": "click",
+    "time": 2000,
+    "locator": "document.querySelector(\"#elCardList > slider-tab-menu\").shadowRoot.querySelector(\"#dokter\")"
+  },
+  {
+    "stepName": "input value",
+    "action": "input",
+    "time": 2000,
+    "locator": "document.querySelector(\"#filterProcedure\").shadowRoot.querySelector(\"#inputFilter\")",
+    "inputValue": "'test'"
+  }
+]

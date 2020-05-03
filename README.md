@@ -50,7 +50,7 @@ eg) [
     
 2) Navigate to url of your website
 3) Copy url and paste it in first step with navigate action.
-4) Now decide if you need to click on same button or provide an input.
+4) Now decide if you need to click on some button or provide an input.
 5) According choose your step with that action and set the required values.
 6) Set time becuse it might take a while to load the page.
 7) Keep on repeating the steps for one feature.

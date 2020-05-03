@@ -1,6 +1,8 @@
 # raptor
 E2E test script for apps having normal and shadow dom
 
+command to run test : mvn clean test
+
 Usually shadom dom's are pain for testing. With code like raptor now its very easy to create scripts which penetrates shadom dom like a bullet.
 
 This will also ease creating scripts for multiple features in seconds.

@@ -3,7 +3,7 @@
     "stepName": "navigate to url",
     "action": "navigate",
     "time": 2000,
-    "locator": "document.querySelector(\"#ing-uic-screen-state\").shadowRoot.querySelector(\"#form > form > ing-button\")",
+    "locator": "",
     "url": "'https://www.alodokter.com/'"
   },
   {

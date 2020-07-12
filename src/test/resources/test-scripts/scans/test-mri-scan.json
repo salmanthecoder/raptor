@@ -1,0 +1,35 @@
+{
+  "testCaseConfig": {
+    "testName": "Test Mri scan",
+    "proxy": false,
+    "browser": "Chrome"
+  },
+  "testSteps": [
+    {
+      "stepName": "navigate to url",
+      "action": "navigate",
+      "url": "https://www.alodokter.com/"
+    },
+    {
+      "stepName": "click Cari Dokter",
+      "action": "click",
+      "locator": "document.querySelector(\"#content > hero-view\").shadowRoot.querySelector(\"div > div.sub-menu > div > div > div:nth-child(2) > a\")"
+    },
+    {
+      "stepName": "click mri scan",
+      "action": "click",
+      "locator": "document.querySelector(\"#container > div.parent > div.div2 > card-hospital-index\").shadowRoot.querySelector(\"div > div.card-hospital-index > div > card-sticky-hospital:nth-child(1)\").shadowRoot.querySelector(\"div > div > div.hospital-index-procedure > div > p:nth-child(2) > a\")"
+    },
+    {
+      "stepName": "click Doktor",
+      "action": "click",
+      "locator": "document.querySelector(\"#elCardList > slider-tab-menu\").shadowRoot.querySelector(\"#dokter\")"
+    },
+    {
+      "stepName": "input value",
+      "action": "input",
+      "locator": "document.querySelector(\"#filterProcedure\").shadowRoot.querySelector(\"#inputFilter\")",
+      "inputValue": "Mri"
+    }
+  ]
+}
